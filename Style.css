@@ -1,0 +1,67 @@
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* हेडर का डिज़ाइन */
+.header {
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+}
+
+/* फीड का डिज़ाइन */
+.feed {
+    max-width: 470px;
+    margin: 20px auto;
+    padding-bottom: 60px;
+}
+
+/* पोस्ट का डिज़ाइन */
+.post {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.post-image {
+    width: 100%;
+    height: 300px;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+}
+
+.post-caption {
+    padding: 10px;
+}
+
+/* नेविगेशन बार का डिज़ाइन */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
